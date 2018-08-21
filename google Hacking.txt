@@ -1,0 +1,13 @@
+site: buscar em um site específico
+intitle: buscar no titulo da página
+inurl: pesquisar na url
+intext: conteudo do site
+filetype: formato de arquivos
+
+Sites úteis
+archive.org
+whois registrobr
+shodan.io
+kali linux
+theharvester
+whatweb
