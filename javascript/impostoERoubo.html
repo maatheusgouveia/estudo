@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+            <ul>
+                    <li>salt</li>
+                    <li>pepper</li>
+            </ul>
+                  
+                  <p>Today is a <span id="day">bad</span> day</p>
+
+                  <a id="imposto" href="imposto é roubo">Imposto é roubo</a>
+
+                  <script>
+
+                  var imposto = document.getElementsByTagName("a")[0].getAttribute("href");
+
+                  alert(imposto);
+
+                  imposto = document.getElementsByTagName("a")[0].setAttribute("href", "Sonegar é legitima defesa");
+
+                  alert(document.getElementsByTagName("a")[0].getAttribute("href"));
+
+                  </script>
+
+
+        <script>
+
+                var list = document.getElementsByTagName("ul")[0];
+                list.innerHTML += "<li>garlic</li><li>Imposto é roubo</li>";
+                
+                var day = document.getElementById("day");
+                day.innerHTML = "good";
+                
+                var paragraph = document.getElementsByTagName("p")[0];
+                paragraph.innerHTML += " to withhold taxes";</script>
+
+    </body>
+</html>

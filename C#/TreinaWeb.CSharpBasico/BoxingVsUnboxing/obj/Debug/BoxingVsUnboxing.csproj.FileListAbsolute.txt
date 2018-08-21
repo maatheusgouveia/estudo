@@ -1,0 +1,6 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\bin\Debug\BoxingVsUnboxing.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\bin\Debug\BoxingVsUnboxing.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\bin\Debug\BoxingVsUnboxing.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\obj\Debug\BoxingVsUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\obj\Debug\BoxingVsUnboxing.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\BoxingVsUnboxing\obj\Debug\BoxingVsUnboxing.pdb

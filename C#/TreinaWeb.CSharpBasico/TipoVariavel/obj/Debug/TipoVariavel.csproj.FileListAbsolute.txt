@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\bin\Debug\TipoVariavel.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\bin\Debug\TipoVariavel.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\bin\Debug\TipoVariavel.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\obj\Debug\TipoVariavel.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\obj\Debug\TipoVariavel.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\obj\Debug\TipoVariavel.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\TipoVariavel\obj\Debug\TipoVariavel.csprojAssemblyReference.cache

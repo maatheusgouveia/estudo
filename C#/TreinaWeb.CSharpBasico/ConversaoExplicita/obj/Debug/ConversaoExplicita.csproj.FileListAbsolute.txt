@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\bin\Debug\ConversaoExplicita.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\bin\Debug\ConversaoExplicita.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\bin\Debug\ConversaoExplicita.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\obj\Debug\ConversaoExplicita.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\obj\Debug\ConversaoExplicita.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\obj\Debug\ConversaoExplicita.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoExplicita\obj\Debug\ConversaoExplicita.pdb

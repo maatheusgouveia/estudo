@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\bin\Debug\estudoCollections.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\bin\Debug\estudoCollections.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\bin\Debug\estudoCollections.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\obj\Debug\estudoCollections.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\obj\Debug\estudoCollections.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\obj\Debug\estudoCollections.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoCollections\obj\Debug\estudoCollections.pdb

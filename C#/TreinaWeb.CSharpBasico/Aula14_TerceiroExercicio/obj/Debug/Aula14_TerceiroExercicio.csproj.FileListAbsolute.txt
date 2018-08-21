@@ -1,0 +1,6 @@
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\bin\Debug\Aula14_TerceiroExercicio.exe.config
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\bin\Debug\Aula14_TerceiroExercicio.exe
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\bin\Debug\Aula14_TerceiroExercicio.pdb
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\obj\Debug\Aula14_TerceiroExercicio.csprojResolveAssemblyReference.cache
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\obj\Debug\Aula14_TerceiroExercicio.exe
+C:\Curso\Testes\CSharpBasicoExercicios\Aula14_TerceiroExercicio\obj\Debug\Aula14_TerceiroExercicio.pdb

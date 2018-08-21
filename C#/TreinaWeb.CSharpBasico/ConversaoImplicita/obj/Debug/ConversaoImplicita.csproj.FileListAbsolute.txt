@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\bin\Debug\ConversaoImplicita.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\bin\Debug\ConversaoImplicita.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\bin\Debug\ConversaoImplicita.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\obj\Debug\ConversaoImplicita.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\obj\Debug\ConversaoImplicita.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\obj\Debug\ConversaoImplicita.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ConversaoImplicita\obj\Debug\ConversaoImplicita.pdb

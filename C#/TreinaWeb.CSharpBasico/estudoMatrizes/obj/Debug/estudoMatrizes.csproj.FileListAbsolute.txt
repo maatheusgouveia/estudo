@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\bin\Debug\estudoMatrizes.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\bin\Debug\estudoMatrizes.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\bin\Debug\estudoMatrizes.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\obj\Debug\estudoMatrizes.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\obj\Debug\estudoMatrizes.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\obj\Debug\estudoMatrizes.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoMatrizes\obj\Debug\estudoMatrizes.csprojAssemblyReference.cache

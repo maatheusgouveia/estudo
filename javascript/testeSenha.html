@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+</head>
+
+<body>
+  <h1>Digite uma senha para descobrir o nível de segurança</h1>
+<script type="text/javascript">
+function TestaSenha()
+{
+    var valor = document.getElementById('senhaLogin').value;
+        var d = document.getElementById('seguranca');
+    ERaz = /[a-z]/;
+    ERAZ = /[A-Z]/;
+    ER09 = /[0-9]/;
+    ERxx = /[@!#$%&*+=?|-]/;
+
+    if(valor.length == ''){
+        d.innerHTML = '<h4>Seguranca da senha: !</h4>';
+    } else {
+        if(valor.length < 5){
+            d.innerHTML = '<h4>Seguranca da senha: <font color=\'red\'> BAIXA</font></h4>';
+        } else {
+            if(valor.length > 7 && valor.search(ERaz) != -1 && valor.search(ERAZ) != -1 && valor.search(ER09) != -1 || valor.length > 7 && valor.search(ERaz) != -1 && valor.search(ERAZ) != -1 && valor.search(ERxx) || valor.length > 7 && valor.search(ERaz) != -1 && valor.search(ERxx) != -1 && valor.search(ER09) || valor.length > 7  && valor.search(ERxx) != -1 && valor.search(ERAZ) != -1 && valor.search(ER09)){
+                d.innerHTML = '<h4>Seguranca da senha: <font color=\'green\'> ALTA</font></h4>';
+            } else {
+                if(valor.search(ERaz) != -1 && valor.search(ERAZ) != -1 || valor.search(ERaz) != -1 && valor.search(ER09) != -1 || valor.search(ERaz) != -1 && valor.search(ERxx) != -1 ||valor.search(ERAZ) != -1 && valor.search(ER09) != -1 ||valor.search(ERAZ) != -1 && valor.search(ERxx) != -1 ||valor.search(ER09) != -1 && valor.search(ERxx) != -1){
+                    d.innerHTML = '<h4>Seguranca da senha: <font color=\'orange\'> MEDIA</font></h4>';
+                } else {
+                    d.innerHTML = '<h4>Seguranca da senha: <font color=\'red\'> BAIXA</font></h4>';
+                }
+            }
+        }
+    }
+}
+
+</script>
+<input id="senhaLogin" name="senhaLogin" onchange="TestaSenha(); return false;" />
+
+<div id="seguranca"></div>
+</body>
+</html>

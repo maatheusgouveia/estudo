@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head><title>Obter o código da tecla pressionada</title>
+    <meta charset="utf-8">
+    </head>
+    <body>
+
+    <p>Experimente pressionar qualquer tecla e uma
+    mensagem mostrará o código da tecla pressionada.</p>
+
+<!-- função javascript -->
+    <script language="JavaScript">
+      function tecla(){
+        window.alert("O código da tecla pressionada é: " + event.keyCode);
+      }
+// chama a função quando uma tecla for pressionada
+      document.body.onkeypress = tecla;
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\bin\Debug\estudoEnumeradores.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\bin\Debug\estudoEnumeradores.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\bin\Debug\estudoEnumeradores.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.frmEstudoEnums.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.Properties.Resources.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.csproj.GenerateResource.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoEnumeradores\obj\Debug\estudoEnumeradores.pdb

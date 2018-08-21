@@ -1,0 +1,157 @@
+# Project: C
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = helloWorld.o exemploIf.o constantes.o converterVar.o ifElse.o caseDiasSemana.o switchAninhado.o repeticaoFor.o repeticaoWhile.o repeticaoDoWhile.o desvioGoto.o continue.o matriz.o matrizBidimensional.o matrizMulti.o struct.o funcaoPorReferencia.o funcMatriz.o recursividade.o ponteiros.o somaPonteiro.o comparaPonteiros.o incrementoDecrementoPonteiros.o matrizPonteiro.o entradaSaida.o getchEgetch.o strings.o lerString.o strPuts.o numeros.o scanF.o arquivosFopen.o putc.o lerArquivo.o fputs.o fgets.o rewind.o ferror.o macro.o ifelsePreProcessador.o ifdef.o erro.o line.o projetoFinal.o
+LINKOBJ  = helloWorld.o exemploIf.o constantes.o converterVar.o ifElse.o caseDiasSemana.o switchAninhado.o repeticaoFor.o repeticaoWhile.o repeticaoDoWhile.o desvioGoto.o continue.o matriz.o matrizBidimensional.o matrizMulti.o struct.o funcaoPorReferencia.o funcMatriz.o recursividade.o ponteiros.o somaPonteiro.o comparaPonteiros.o incrementoDecrementoPonteiros.o matrizPonteiro.o entradaSaida.o getchEgetch.o strings.o lerString.o strPuts.o numeros.o scanF.o arquivosFopen.o putc.o lerArquivo.o fputs.o fgets.o rewind.o ferror.o macro.o ifelsePreProcessador.o ifdef.o erro.o line.o projetoFinal.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = C.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+helloWorld.o: helloWorld.c
+	$(CC) -c helloWorld.c -o helloWorld.o $(CFLAGS)
+
+exemploIf.o: exemploIf.c
+	$(CC) -c exemploIf.c -o exemploIf.o $(CFLAGS)
+
+constantes.o: constantes.c
+	$(CC) -c constantes.c -o constantes.o $(CFLAGS)
+
+converterVar.o: converterVar.c
+	$(CC) -c converterVar.c -o converterVar.o $(CFLAGS)
+
+ifElse.o: ifElse.c
+	$(CC) -c ifElse.c -o ifElse.o $(CFLAGS)
+
+caseDiasSemana.o: caseDiasSemana.c
+	$(CC) -c caseDiasSemana.c -o caseDiasSemana.o $(CFLAGS)
+
+switchAninhado.o: switchAninhado.c
+	$(CC) -c switchAninhado.c -o switchAninhado.o $(CFLAGS)
+
+repeticaoFor.o: repeticaoFor.c
+	$(CC) -c repeticaoFor.c -o repeticaoFor.o $(CFLAGS)
+
+repeticaoWhile.o: repeticaoWhile.c
+	$(CC) -c repeticaoWhile.c -o repeticaoWhile.o $(CFLAGS)
+
+repeticaoDoWhile.o: repeticaoDoWhile.c
+	$(CC) -c repeticaoDoWhile.c -o repeticaoDoWhile.o $(CFLAGS)
+
+desvioGoto.o: desvioGoto.c
+	$(CC) -c desvioGoto.c -o desvioGoto.o $(CFLAGS)
+
+continue.o: continue.c
+	$(CC) -c continue.c -o continue.o $(CFLAGS)
+
+matriz.o: matriz.c
+	$(CC) -c matriz.c -o matriz.o $(CFLAGS)
+
+matrizBidimensional.o: matrizBidimensional.c
+	$(CC) -c matrizBidimensional.c -o matrizBidimensional.o $(CFLAGS)
+
+matrizMulti.o: matrizMulti.c
+	$(CC) -c matrizMulti.c -o matrizMulti.o $(CFLAGS)
+
+struct.o: struct.c
+	$(CC) -c struct.c -o struct.o $(CFLAGS)
+
+funcaoPorReferencia.o: funcaoPorReferencia.c
+	$(CC) -c funcaoPorReferencia.c -o funcaoPorReferencia.o $(CFLAGS)
+
+funcMatriz.o: funcMatriz.c
+	$(CC) -c funcMatriz.c -o funcMatriz.o $(CFLAGS)
+
+recursividade.o: recursividade.c
+	$(CC) -c recursividade.c -o recursividade.o $(CFLAGS)
+
+ponteiros.o: ponteiros.c
+	$(CC) -c ponteiros.c -o ponteiros.o $(CFLAGS)
+
+somaPonteiro.o: somaPonteiro.c
+	$(CC) -c somaPonteiro.c -o somaPonteiro.o $(CFLAGS)
+
+comparaPonteiros.o: comparaPonteiros.c
+	$(CC) -c comparaPonteiros.c -o comparaPonteiros.o $(CFLAGS)
+
+incrementoDecrementoPonteiros.o: incrementoDecrementoPonteiros.c
+	$(CC) -c incrementoDecrementoPonteiros.c -o incrementoDecrementoPonteiros.o $(CFLAGS)
+
+matrizPonteiro.o: matrizPonteiro.c
+	$(CC) -c matrizPonteiro.c -o matrizPonteiro.o $(CFLAGS)
+
+entradaSaida.o: entradaSaida.c
+	$(CC) -c entradaSaida.c -o entradaSaida.o $(CFLAGS)
+
+getchEgetch.o: getchEgetch.c
+	$(CC) -c getchEgetch.c -o getchEgetch.o $(CFLAGS)
+
+strings.o: strings.c
+	$(CC) -c strings.c -o strings.o $(CFLAGS)
+
+lerString.o: lerString.c
+	$(CC) -c lerString.c -o lerString.o $(CFLAGS)
+
+strPuts.o: strPuts.c
+	$(CC) -c strPuts.c -o strPuts.o $(CFLAGS)
+
+numeros.o: numeros.c
+	$(CC) -c numeros.c -o numeros.o $(CFLAGS)
+
+scanF.o: scanF.c
+	$(CC) -c scanF.c -o scanF.o $(CFLAGS)
+
+arquivosFopen.o: arquivosFopen.c
+	$(CC) -c arquivosFopen.c -o arquivosFopen.o $(CFLAGS)
+
+putc.o: putc.c
+	$(CC) -c putc.c -o putc.o $(CFLAGS)
+
+lerArquivo.o: lerArquivo.c
+	$(CC) -c lerArquivo.c -o lerArquivo.o $(CFLAGS)
+
+fputs.o: fputs.c
+	$(CC) -c fputs.c -o fputs.o $(CFLAGS)
+
+fgets.o: fgets.c
+	$(CC) -c fgets.c -o fgets.o $(CFLAGS)
+
+rewind.o: rewind.c
+	$(CC) -c rewind.c -o rewind.o $(CFLAGS)
+
+ferror.o: ferror.c
+	$(CC) -c ferror.c -o ferror.o $(CFLAGS)
+
+macro.o: macro.c
+	$(CC) -c macro.c -o macro.o $(CFLAGS)
+
+ifelsePreProcessador.o: ifelsePreProcessador.c
+	$(CC) -c ifelsePreProcessador.c -o ifelsePreProcessador.o $(CFLAGS)
+
+ifdef.o: ifdef.c
+	$(CC) -c ifdef.c -o ifdef.o $(CFLAGS)
+
+erro.o: erro.c
+	$(CC) -c erro.c -o erro.o $(CFLAGS)
+
+line.o: line.c
+	$(CC) -c line.c -o line.o $(CFLAGS)
+
+projetoFinal.o: projetoFinal.c
+	$(CC) -c projetoFinal.c -o projetoFinal.o $(CFLAGS)

@@ -1,0 +1,10 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.Form1.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.Properties.Resources.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.csproj.GenerateResource.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\bin\Debug\EstudoIfElse.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\bin\Debug\EstudoIfElse.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\bin\Debug\EstudoIfElse.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\EstudoIfElse\obj\Debug\EstudoIfElse.pdb

@@ -1,0 +1,7 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\bin\Debug\ValueTypeVsReferenceType.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\bin\Debug\ValueTypeVsReferenceType.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\bin\Debug\ValueTypeVsReferenceType.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\obj\Debug\ValueTypeVsReferenceType.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\obj\Debug\ValueTypeVsReferenceType.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\obj\Debug\ValueTypeVsReferenceType.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\ValueTypeVsReferenceType\obj\Debug\ValueTypeVsReferenceType.csprojAssemblyReference.cache

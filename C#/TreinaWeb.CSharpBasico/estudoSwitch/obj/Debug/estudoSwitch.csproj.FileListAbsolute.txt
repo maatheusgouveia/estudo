@@ -1,0 +1,9 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.frmSwitch.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.Properties.Resources.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.csproj.GenerateResource.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\bin\Debug\estudoSwitch.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\bin\Debug\estudoSwitch.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\bin\Debug\estudoSwitch.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\estudoSwitch\obj\Debug\estudoSwitch.pdb

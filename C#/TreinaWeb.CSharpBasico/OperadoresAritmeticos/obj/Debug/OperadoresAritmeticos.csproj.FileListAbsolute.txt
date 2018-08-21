@@ -1,0 +1,10 @@
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\bin\Debug\OperadoresAritmeticos.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\bin\Debug\OperadoresAritmeticos.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\bin\Debug\OperadoresAritmeticos.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.frmCalculadora.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.Properties.Resources.resources
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csproj.GenerateResource.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.pdb

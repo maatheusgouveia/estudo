@@ -1,0 +1,1259 @@
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="libs/bootstrap/js/bootstrap.min.js"></script> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<!-- Font awesome -->
+
+<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+<link rel="stylesheet" href="http://localhost/mostrapreco/libs/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
+<link rel="stylesheet" href="http://localhost/mostrapreco/libs/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="http://localhost/mostrapreco/libs/bootstrap/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- Essa Linha está bugando o site todo -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+<!-- <script src="libs/bootstrap/js/bootstrap.min.js"></script> -->
+
+<!-- links menu -->
+<link rel="stylesheet" href="http://localhost/mostrapreco/css/side-nav.css">
+<link rel="stylesheet" href="http://localhost/mostrapreco/css/reset_drop.css">
+
+
+<!-- link slider -->
+<link rel="stylesheet" href="http://localhost/mostrapreco/css/estiloSlider.css">
+
+<!-- link rodape -->
+<link rel="stylesheet" type="text/css" href="http://localhost/mostrapreco/css/estilo.css">
+
+<!-- <script src="js/jquery.maskedinput.js" type="text/javascript"></script> -->
+
+<!-- favicon mostrapreco -->
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/mostrapreco/imagens/mostrapreco/mpfavicon.ico">
+
+ <!-- scripts para o envio de imagem com ajax-->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+     <script src="http://malsup.github.com/jquery.form.js"></script>
+
+<!-- data table -->
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
+<!-- tags input -->
+
+<link rel="stylesheet" href="http://localhost/mostrapreco/css/bootstrap-tagsinput.css">
+<script src="http://localhost/mostrapreco/js/bootstrap-tagsinput.min.js"></script>
+
+<!-- google analytics -->
+<script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-101003467-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Gráficos -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<!-- Gráficos -->
+
+  <style>
+    a:focus, a:hover {
+     /* color:#fff; */
+    text-decoration: none;
+}
+
+html{
+  font-family: arial;
+  width: 100%;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* btn.focus, .btn:focus, .btn:hover {
+    color:#fff;
+    text-decoration: none;
+     border-color: #60338E;
+    background-color: #60338E;
+
+  } */
+
+
+  </style>
+
+
+
+  <title>Bem vindo! - Mostra Preço</title>
+
+</head>
+
+<body>
+
+
+<style type="text/css">
+  body{
+    font-family: arial;
+    text-decoration: none;
+  }
+
+</style>
+
+<div class="container-fluid" id="topo" style="background-color: #60338E;min-height: 75px;">
+	<div class="row">
+
+		<div class="col-lg-1 col-md-1 col-xs-3" style="z-index:99999;">
+
+    <span style="font-size:30px;cursor:pointer;color: #ece411;top: 50px;margin-left: 10%;" onclick="openNav()"><i class="fa fa-bars fa-1.5x" aria-hidden="true" style="margin-top: 20px;"></i></span>
+
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-bars" aria-hidden="true" style="margin-top: 20px;"></i></a>
+    <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Alimentos  </button>
+  <div class="conteudo-dropdown">
+        <a href="#">Legumes</a>
+
+      <a href="#">Verduras</a>
+
+      <a href="#">Grãos</a>
+
+      <a href="#">Massas</a>
+
+      <a href="#">Frutas</a>
+
+      <a href="#">Doces</a>
+
+      <a href="#">Carnes</a>
+
+      <a href="#">Ovos</a>
+
+    </div>
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Bebidas  </button>
+  <div class="conteudo-dropdown">
+        <a href="#">Refrigerantes</a>
+
+    </div>
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Limpeza  </button>
+  <div class="conteudo-dropdown">
+      </div>
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Higiene Pessoal  </button>
+  <div class="conteudo-dropdown">
+      </div>
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Perfumaria  </button>
+  <div class="conteudo-dropdown">
+      </div>
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Combustíveis  </button>
+  <div class="conteudo-dropdown">
+        <a href="#">Combustíveis</a>
+
+    </div>
+
+
+  <button class="botao-dropdown" style="color: #ffffff;"> <i class="fa fa-caret-down"></i>Empresas
+  </button>
+  <div class="conteudo-dropdown">
+        <a href="#">Supermercado</a>
+
+      <a href="#">Açougue</a>
+
+      <a href="#">Farmácia</a>
+
+      <a href="#">Posto de Combustível</a>
+
+    </div>
+
+  <button class="btn-sm todasCategorias" style="color: #fff;font-size: 20px;position: fixed;
+    left: 0;
+    bottom: 0;margin-left: 40px;background-color: #60338E;border: 2px solid #fff;border-radius:10px;margin-bottom:20px;">Todas as Categorias</button>
+
+    <style>
+    @media screen and (max-width: 1024px) {
+    .todasCategorias {margin-left: 70px;}
+  }
+    </style>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+
+/* Script do botao dropdown */
+var dropdown = document.getElementsByClassName("botao-dropdown");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var Conteudodropdown = this.nextElementSibling;
+    if (Conteudodropdown.style.display === "block") {
+      Conteudodropdown.style.display = "none";
+    } else {
+      Conteudodropdown.style.display = "block";
+    }
+  });
+}
+</script>
+</div> <!--  aqui  col-sm-2  -->
+
+		<div class="col-lg-2 col-md-2 col-xs-9 logo-top" style="margin-top:5px;margin-left: -3%;">
+			<a href="index.php"><img src="imagens/mostrapreco/Logo_Mostra_Preco_Branco.png" height="50px" width="190" class="logo-top" style="margin-top:5px;" ></a>
+		</div>
+
+
+
+
+		<div class="col-lg-6 col-md-6 col-xs-12 busca" style="z-index: 0;margin-left: 1%;" >
+			<div class="div" style="margin-top: 10px;">
+<form action="resultado.php" method="GET">
+  <input type="hidden" name="Localizacao" id="Localizacao" value="Avaré">
+  <input type="hidden" name="Bairro" id="Bairro" id="Localizacao" value="">
+            <div id="custom-search-input">
+                <div class="input-group">
+                    <input type="text" class="form-control input-lg" name="Busca" placeholder="Buscar Produtos ou Estabelecimentos" required/>
+                    <span class="input-group-btn" >
+                        <button type="submit" class="btn  btn-lg" type="button" style="background-color: #8A2BE2; border:1px solid #8A2BE2;border-radius: 3px;padding: 13px;height: 46.5px; ">
+                            <i class="glyphicon glyphicon-search" style="background-color: #8A2BE2;color: #E9E339;"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <script type="text/javascript">
+
+
+
+            navigator.geolocation.getCurrentPosition(function(posicao) {
+                var url = "http://nominatim.openstreetmap.org/reverse?lat="+posicao.coords.latitude+"&lon="+posicao.coords.longitude+"&format=json&json_callback=preencherDados";
+
+            var script = document.createElement('script');
+            script.src = url;
+            document.body.appendChild(script);
+
+            preencherDados();
+
+            });
+
+
+
+            function preencherDados(dados) {
+              document.querySelector('#Localizacao').value = dados.address.city_district;
+              document.querySelector('#Bairro').value = dados.address.suburb;
+
+            }
+
+            </script>
+</form>
+</div>
+		</div>
+
+		<div class=" col-md-2 col-lg-2  login" style="margin-bottom: 10px;margin-left: 1.5%;">
+
+
+              <div class="dropdown" style="margin-top:10px;">
+            <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-lg" size="9" data-target="#" href="#" style="background-color: #60338E; border: 2px solid #8A2BE2;color: #FFF;font-size: 0.97em;width:300px;margin-bottom:5px;">
+
+              Fazer Login <span class="caret"></span>
+            </a>
+        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+              <li><a href="login.php">Fazer login ou Cadastrar-se</a></li>
+              <li><a href="painelAdministrativo.php">Painel de controle</a></li>
+              <li><a href="notificacoes.php">Notificações <span class="badge">0</span></a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="logoff.php">Sair</a>
+
+              </li>
+            </ul>
+            </div>
+
+		</div>
+
+	</div>
+  </div>
+<!-- <div class="container-fluid back hidden-xs hidden-sm" style="background-position: center;height: 350px;margin: 0 auto;padding: 0">
+</div> -->
+
+<section class="container-fluid recentes" style="background-color: #fff ; min-height: 400px; text-align:center">
+
+
+<div class="col-md-12"  >
+
+<h1 style="text-align: center;font-size: 2.5em;margin-bottom: 20px;margin-top: 10px;font-weight: bold;margin-bottom: 10px;" >Promoções</h1>
+<!-- <div class="col-xs-5-offset col-sm-5-offset col-md-5-offset col-xl-5-offset" > -->
+
+
+                 <div class="container">
+
+        <div class="row">
+
+
+ <!-- Page Content -->
+
+
+
+ <!-- Estilo da Oferta -->
+
+<style>
+
+.content-oferta {
+   float:left;
+}
+
+.content-oferta span {
+    color: gold;
+    font-size: 60px; /* ajuste o tamanho do ICONE aqui*/
+    position: absolute; /* é necessário para enquadrar o ::after */
+    left:1;
+    top:-10;
+
+}
+
+.fa-certificate::after {
+    font-size: 16px; /* ajuste o tamanho do texto aqui */
+    top: 20px; /* ajusta no centro e vertical */
+    content: attr(data-qtd); /*pega o valor do atributo */
+    font-style:Arial;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+<!-- Fim do Estilo Oferta -->
+
+
+            <div class="col-sm-3" style="margin-bottom:5px;margin-top:10px;">
+                            <div class="col-item">
+
+                        <!-- Inicio Oferta -->
+                        <div class="content-oferta ">
+                        <span  class="fas fa-certificate fa-5x" data-qtd="Oferta"></span>
+                        </div>
+                        <!-- Fim Oferta -->
+
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=MTc=" > <img src="imagens/imgProdutos/1526568140coca-cola.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Refrigerante de cola" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 2px;font-weight: bold;font-size: 1.2em;">Refrigerante de cola</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Coca - Cola</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$2.00</h5>
+                                        </div>
+
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=MTc=" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=MTc=" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+ <!-- Page Content -->
+
+
+
+ <!-- Estilo da Oferta -->
+
+<style>
+
+.content-oferta {
+   float:left;
+}
+
+.content-oferta span {
+    color: gold;
+    font-size: 60px; /* ajuste o tamanho do ICONE aqui*/
+    position: absolute; /* é necessário para enquadrar o ::after */
+    left:1;
+    top:-10;
+
+}
+
+.fa-certificate::after {
+    font-size: 16px; /* ajuste o tamanho do texto aqui */
+    top: 20px; /* ajusta no centro e vertical */
+    content: attr(data-qtd); /*pega o valor do atributo */
+    font-style:Arial;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+<!-- Fim do Estilo Oferta -->
+
+
+            <div class="col-sm-3" style="margin-bottom:5px;margin-top:10px;">
+                            <div class="col-item">
+
+                        <!-- Inicio Oferta -->
+                        <div class="content-oferta ">
+                        <span  class="fas fa-certificate fa-5x" data-qtd="Oferta"></span>
+                        </div>
+                        <!-- Fim Oferta -->
+
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=Mw==" > <img src="imagens/imgProdutos/1526011332gasolina.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Gasolina Aditivada" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 2px;font-weight: bold;font-size: 1.2em;">Gasolina Aditivada</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Petrobrás</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$4.10</h5>
+                                        </div>
+
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzc=">Concorrente 1</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=Mw==" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=Mw==" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+ <!-- Page Content -->
+
+
+
+ <!-- Estilo da Oferta -->
+
+<style>
+
+.content-oferta {
+   float:left;
+}
+
+.content-oferta span {
+    color: gold;
+    font-size: 60px; /* ajuste o tamanho do ICONE aqui*/
+    position: absolute; /* é necessário para enquadrar o ::after */
+    left:1;
+    top:-10;
+
+}
+
+.fa-certificate::after {
+    font-size: 16px; /* ajuste o tamanho do texto aqui */
+    top: 20px; /* ajusta no centro e vertical */
+    content: attr(data-qtd); /*pega o valor do atributo */
+    font-style:Arial;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+<!-- Fim do Estilo Oferta -->
+
+
+            <div class="col-sm-3" style="margin-bottom:5px;margin-top:10px;">
+                            <div class="col-item">
+
+                        <!-- Inicio Oferta -->
+                        <div class="content-oferta ">
+                        <span  class="fas fa-certificate fa-5x" data-qtd="Oferta"></span>
+                        </div>
+                        <!-- Fim Oferta -->
+
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=NA==" > <img src="imagens/imgProdutos/1526531098Diesel-S10.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Gasolina comum" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 2px;font-weight: bold;font-size: 1.2em;">Gasolina comum</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Petrobrás</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$3.90</h5>
+                                        </div>
+
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=NA==" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=NA==" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+ <!-- Page Content -->
+
+
+
+ <!-- Estilo da Oferta -->
+
+<style>
+
+.content-oferta {
+   float:left;
+}
+
+.content-oferta span {
+    color: gold;
+    font-size: 60px; /* ajuste o tamanho do ICONE aqui*/
+    position: absolute; /* é necessário para enquadrar o ::after */
+    left:1;
+    top:-10;
+
+}
+
+.fa-certificate::after {
+    font-size: 16px; /* ajuste o tamanho do texto aqui */
+    top: 20px; /* ajusta no centro e vertical */
+    content: attr(data-qtd); /*pega o valor do atributo */
+    font-style:Arial;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+
+<!-- Fim do Estilo Oferta -->
+
+
+            <div class="col-sm-3" style="margin-bottom:5px;margin-top:10px;">
+                            <div class="col-item">
+
+                        <!-- Inicio Oferta -->
+                        <div class="content-oferta ">
+                        <span  class="fas fa-certificate fa-5x" data-qtd="Oferta"></span>
+                        </div>
+                        <!-- Fim Oferta -->
+
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=MTU=" > <img src="imagens/imgProdutos/1526568140coca-cola.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Refrigerante de cola" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 2px;font-weight: bold;font-size: 1.2em;">Refrigerante de cola</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Coca - Cola</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$4.50</h5>
+                                        </div>
+
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=MTU=" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=MTU=" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+            </div>
+    </div>
+
+            </div>
+
+<div>
+
+<h1 class=" text-center" style="text-align: center;font-size: 2.5em;margin: 20px;font-weight: bold; " >Produtos em alta</h1>
+
+</div>
+
+
+                 <div class="container">
+
+        <div class="row">
+
+
+ <!-- Page Content -->
+
+
+            <div class="col-sm-3" style="margin-bottom:30px;">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=OQ==" > <img src="imagens/imgProdutos/1526568140coca-cola.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Refrigerante de cola" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 5px;font-weight: bold;font-size: 1.2em;">Refrigerante de cola</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Coca - Cola</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$5.00</h5>
+                                        </div>
+                                       <!--  <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div> -->
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=OQ==" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=OQ==" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+            </div>
+    </div>
+
+
+<div class="col-md-12">
+
+<br>
+
+</div>
+
+
+                 <div class="container">
+
+        <div class="row">
+
+
+ <!-- Page Content -->
+
+
+            <div class="col-sm-3" style="margin-bottom:30px;">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=OQ==" > <img src="imagens/imgProdutos/1526568140coca-cola.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Refrigerante de cola" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 5px;font-weight: bold;font-size: 1.2em;">Refrigerante de cola</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Coca - Cola</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$5.00</h5>
+                                        </div>
+                                       <!--  <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div> -->
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=OQ==" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=OQ==" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+            </div>
+    </div>
+
+
+<br>
+
+
+                 <div class="container">
+
+        <div class="row">
+
+
+ <!-- Page Content -->
+
+
+            <div class="col-sm-3" style="margin-bottom:30px;">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <a href="verProdutos.php?idAnuncio=OQ==" > <img src="imagens/imgProdutos/1526568140coca-cola.jpg" class="img-responsive" style="height:200px;width:300px;" alt="Refrigerante de cola" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-12 col-xs-12" >
+                                            <h5 style="margin-bottom: 5px;font-weight: bold;font-size: 1.2em;">Refrigerante de cola</h5>
+                                            <h5 style="margin-bottom:2px;font-weight:bold;font-size:1.2em;">Coca - Cola</h5>
+                                            <h5 class="price-text-color" style="margin-bottom: 5px;font-size: 1.4em;font-weight: bold;">
+                                                R$5.00</h5>
+                                        </div>
+                                       <!--  <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div> -->
+                                        <p style="font-size: 1em;margin-bottom: 5px;font-weight: bold;">Vendido por:<a href="perfilEmpresa.php?idLoja=Mzg=">Concorrente 2</a>
+                                        </p>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <a href="adicionaLista.php?idAnuncio=OQ==" class="hidden-sm linkPopover" id="linkPopover">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </p>
+                                        <p class="btn-details" style="font-size: 0.8em;">
+                                        <i class="fa fa-list"></i><a href="verProdutos.php?idAnuncio=OQ==" class="hidden-sm">Ver mais</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- /.container -->
+
+
+            </div>
+    </div>
+
+
+
+</section>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container-fluid mapa lista" >
+<div class="row">
+
+
+<div class="col-xs-12 col-sm-12 col-md-2 col-xl-2 mapa">
+
+<h3 class="h3" style="color: #fff; padding-top: 1px;margin-bottom: 10px; margin-top: 19px;">Mapa</h3>
+	<ul class="text-primary">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Minha lista de compras</a></li>
+        <li><a href="#">Meus locais</a></li>
+        <li><a href="#">Meus produtos</a></li>
+	</ul>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-2 col-xl-2 mapa" >
+                <div class="h3"><h3 style="color: #fff;">Fale Conosco</h3></div>
+
+                  <ul style="color: #fff;text-decoration: none;">
+
+                  <!-- <li><a href="#"><i class="fa fa-map-marker" height="100" width="100"></i><span style="font-family: arial; ">&nbsp;Endereço:Rua dos Alfeneiros N°:4</span></a></li> -->
+                 <!-- <li><a href="#"><i class="glyphicon glyphicon-phone" height="100" width="100"></i><span style="font-family: arial; ">&nbsp;Telefone: (14)3733-7070</span></a></li> -->
+                 <!-- <li><a href="#"><i class="fa fa-whatsapp" height="100" width="100"></i><span style="font-family: arial; ">&nbsp;Whatsapp:(14)99123-4567</span></a></li> -->
+                 <li><a href="" ><i class="fa fa-envelope" height="100" width="100"></i><span style="font-family: arial; ">&nbsp;Email:</span><br><span style="font-size:15px;">contato@smarttechbrasil.com</span></a></li>
+                 <li><a href="" ><span style="font-size:15px;">contato@mostrapreco.com.br</span></a></li>
+
+                  </ul>
+             </div>
+
+
+                 <div class="col-xs-12 col-sm-12 col-md-3 col-xl-12 sobre" style="text-align: justify;">
+	               <div class="h3"><h3 style="color: #fff;">Sobre nós</h3></div>
+                   <p style="color: #fff;" style="font-size:0.5em;" class="text-white">&nbsp; &nbsp; Mostra Preço é uma solução online idealizada em 2016 e que começou a ser desenvolvida em 2017, criada para facilitar a vida das pessoas tornando tarefas do cotidiano mais simples. <br>
+                     &nbsp; &nbsp; Nosso objetivo é elevar a qualidade de vida e o poder de compra dos usuários e assim possibilitar que esses tenham mais tempo e dinheiro para as coisas que realmente importam.
+
+                     <style>
+                      .verMais{
+                        float: right;
+                        font-size: 20px;
+                        color: lightgray;
+                      }
+
+                       .verMais:hover{
+                        color:#E9E339;
+                        /* border-bottom:2px solid yellow; */
+                       }
+
+                       /* .redes ul li a i:hover{
+                        padding-bottom: 10px;
+                        transition: 0.5s;
+                        color:#E9E339;
+                      } */
+
+                      /* .mapa ul li a:hover{
+                        color:#E9E339;
+                      } */
+                     </style>
+                   </p>
+                   <br>
+                  <a class="verMais" href="sobre.php">Ver Mais</a>
+                 </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 redes">
+
+             <div class="row">
+
+             <h3 class="h3" style="margin-top: 10px; color: #fff; padding-top: 10px;"><p>Redes Sociais</p></h3>
+
+             </div>
+
+
+              <div class="row">
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-xl-3">
+
+                    <ul>
+                 <li><a href="https://www.facebook.com/SmartTechBr/"><i class="fa fa-facebook fa-2x spinner"></i></a></li>
+                 <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                 <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                 <li><a href="https://www.linkedin.com/company/16274924/"><i class="fa fa-linkedin-in fa-2x"></i></a></li>
+
+             </ul>
+
+                  </div>
+                  <div class="col-xs-9 col-sm-9 col-md-9 col-xl-9" style="margin-left: -55px;margin-bottom: 5px;">
+
+                     <div class="fb-page" data-href="https://www.facebook.com/Easy-Price-820034768174082/" data-tabs="timeline" data-height="200" data-width="500"  data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Easy-Price-820034768174082/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Easy-Price-820034768174082/">Mostra Preço</a></blockquote></div>
+
+                  </div>
+              </div>
+             </div>
+
+</div> <!-- fim row -->
+<!-- <div class="container-fluid" style="border-top: 2px solid #E9E339;">
+<h2 class="text-center" style="color: #fff;">Nos mande uma mensagem !</h2>
+</div>
+<form method="POST" action="enviarEmail.php" style="text-align: center;margin: 20px;">
+          <span style="color: #fff;">Assunto:</span> <br>
+          <input type="text" name="assunto" class="btn btn-lg col-xs-12 col-sm-12 col-md-12 col-xl-12" placeholder="Sobre o que você quer falar?" size="35" required> <br>
+          <span style="color: #fff;">Nome:</span> <br>
+          <input type="text" name="nome" class="btn btn-lg col-xs-12 col-sm-12 col-md-12 col-xl-12" size="35" required placeholder="Qual o seu nome?"> <br>
+         <span style="color: #fff;"> Email:</span> <br>
+          <input type="email" name="email" class="btn btn-lg col-xs-12 col-sm-12 col-md-12 col-xl-12" size="35" required placeholder="Um email para entrarmos em contato se for necessário" value=""> <br>
+          <span style="color: #fff;">Mensagem:</span> <br>
+          <textarea class="col-xs-12 col-sm-12 col-md-12 col-xl-12" name="msg" id="msg" cols="40" rows="5" class="btn btn-lg" required></textarea> <br> <br> <br>
+
+          <input type="submit" class="btn btn-lg" style="background-color: #60338e; margin-top: 10px; color: #fff;"> <input type="reset" class="btn btn-lg" style="background-color: #60338e; margin-top: 10px; color: #fff;">
+
+
+     </form> -->
+
+</div>
+
+<div class="container-fluid copyright col-md-12" style="margin-top: 20px;min-height: 200px;margin: 0 auto;background-color: #8A2BE2;" >
+<!-- background-image: url(imagens/mostrapreco/rodape-back.png) ;background-position: center;background-size: 1000px; -->
+<!-- /*title="http://www.freepik.com Designed by Freepik"*/ -->
+<div class="row" style="border-top: 3px solid #E9E339;"></div>
+
+
+
+ <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+
+
+  <style type="text/css">
+
+    .copyright a:link{
+      color: white;
+    }
+
+    .copyright a:visited{
+      color: white;
+    }
+
+    .copyright a:hover{
+      color: white;
+    }
+    .copyright a:active{
+      color: white;
+    }
+
+
+  </style>
+<a href="http://www.smarttechbrasil.com" target="blank"><img src="imagens/mostrapreco/logostb.png" class="center-block" style="-webkit-user-select: none;height:90px;margin-bottom:20px;margin-top:10px;width:200px;" /></a>
+
+<div class="copyright" style="color:white;text-align: center;">
+<div class="copyright" style="font-family: roboto, sans-serif; font-weight: 700; color: rgb(255,255,255); font-size: 18px; margin-top: 5px;">
+<div class="copyright" style="margin-bottom:30px;">&nbsp;<a href="http://www.smarttechbrasil.com" target="blank">www.smarttechbrasil.com</a></div>
+</div>
+
+<!-- <div class="copyright" style="font-weight: 700; font-size: 14px; margin-top: 7px;">
+<a href="https://www.linkedin.com/company/16274924/" target="blank"><img src="imagens/mostrapreco/logoin.png" style="user-select: none;" /></a>
+  <a href="https://www.facebook.com/SmartTechBr/" target="blank"><img src="imagens/mostrapreco/logofb.png" style="color:white !important; user-select: none;" /></a></div>
+</div> -->
+
+
+
+<p style="color: white; text-align: center;margin-top: 10px;">Copyright © Smart Tech Brasil - Tecnologia e Inovações LTDA <!-- © 2016 - <br />
+<b>Notice</b>:  Undefined variable: ano in <b>C:\xampp\htdocs\mostrapreco\includes\rodape.php</b> on line <b>171</b><br />
+ --></p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #60338e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  color: yellow;
+}
+
+#myBtn:hover {
+  background-color: #60338e;
+}
+</style>
+
+
+<button onclick="topFunction()" id="myBtn" title="Voltar ao topo"> <i class="glyphicon glyphicon-menu-up 2x"></i></button>
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+<style>
+
+  .btn-email{
+
+  position: fixed;
+
+  width: 50px;
+
+  height: 50px;
+
+  padding: 5px 8px;
+
+  font-size: 12px;
+
+  line-height: 1.33;
+
+  border-radius: 25px;
+
+  background-color: #60338e;
+
+  border: 1px solid #60338e;
+
+  bottom: 30px;
+
+  left: 20px;
+
+  z-index: 1;
+
+  }
+
+  button:hover{
+    background-color: #60338e;
+  }
+
+  .borda{
+
+    border: 1px solid #DCDCDC;
+
+  }
+
+  select:hover{
+    background-color: #fff;
+    color: #333;
+  }
+
+</style>
+
+
+
+<!-- Button trigger modal -->
+
+<button type="button" class="btn  btn-lg btn-circle btn-email" data-toggle="modal" data-target="#myModalMsg" style="z-index: 1;color: #fff;">
+
+   <i class="fa fa-comments-o fa-2x" title="Enviar Mensagem"></i>
+
+</button>
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="myModalMsg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+  <div class="modal-dialog" role="document">
+
+    <div class="modal-content">
+
+      <div class="modal-header" style="background-color:#8A2BE2 ;">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <h4 class="modal-title" id="myModalLabel" style="background-color:#8A2BE2 ;font-size: 2em;text-align: center;color: #fff;">Mostra Preço</h4>
+
+      </div>
+
+      <div class="modal-body">
+
+      <h2  style="text-align: center;font-size: 1.5em;font-weight: bold;">Enviar uma Mensagem</h2>
+
+  <hr>
+
+  <div id="retorno">
+
+  </div>
+
+       <form method="POST" action="enviarEmail.php" style="text-align: center;margin: 20px;" id="enviarEmail">
+
+          <div class="form-group">
+
+          <span style="color: #;font-weight: bold;">Assunto</span> <br>
+
+          <select class="btn btn-lg borda " name="assunto" id="assunto" style="width: 100%;" required>
+
+          <option value="">Selecione um assunto</option>
+
+          <option value="reportar" >Reportar um Bug</option>
+
+          <option value="sugestao">Sugestão/Reclamação</option>
+
+          <option value="desenvolvedores">Mensagem aos desenvolvedores</option>
+
+          <option value="outros">Outros</option>
+
+          </select> <br>
+
+          </div>
+
+<div class="form-group">
+
+          <span style="color: #;font-weight: bold;">Nome:</span> <br>
+
+          <input type="text" style="text-align:left;margin-bottom: 20px;" name="nomeMensagem" class="btn btn-lg col-xs-12 col-sm-12 col-md-12 col-xl-12 borda" size="35" required placeholder="Qual o seu nome?"> <br>
+
+</div>
+
+         <span style="color: #;font-weight: bold;"> Email:</span> <br>
+
+<input type="email" style="text-align:left;margin-bottom: 20px;" name="emailMensagem" class="btn btn-lg col-xs-12 col-sm-12 col-md-12 col-xl-12 borda" size="35" required placeholder="Um email para entrarmos em contato se for necessário" value=""> <br>
+
+      <span style="color: #;font-weight: bold;">Mensagem:</span> <br>
+
+      <textarea class="col-xs-12 col-sm-12 col-md-12 col-xl-12 borda" name="mensagem" id="mensagem" cols="40" rows="5" class="btn btn-lg" required style="margin-bottom: 10px;"></textarea> <br> <br> <br>
+
+<hr>
+
+      <div class="footer" >
+
+       <input type="submit" class="btn  btn-lg " style=" background-color: #8A2BE2; border:1px solid #8A2BE2;color: #fff;">
+
+       <input type="reset" class="btn  btn-lg" style=" background-color: #8A2BE2; border:1px solid #8A2BE2;color: #fff;">
+
+       <!-- <button type="button" class="btn  btn-lg" data-dismiss="modal" style=" background-color: #8A2BE2; border:1px solid #8A2BE2;color: #fff;">Fechar</button> -->
+
+        </div>
+
+         </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+  $(document).ready(function(e){
+
+     $("#enviarEmail").submit(function(){
+
+         $.ajax({
+
+          //caminho/nome do arquivo que irá receber o form
+
+            url:'enviarEmail.php',
+
+            type:'POST',
+
+            data:$(this).serialize(),
+
+            beforeSend:function(){
+
+            $('#retorno').html("<img src='imagens/loading.gif'>");
+
+            }, //o que aconteceao enviar dados
+
+            success:function(data){
+
+            $("#retorno").html(data);
+
+            } ,// dados de retorno do arquivo que recebe o form
+
+         }); //fim ajax
+
+         return false;
+
+     }); //fim form exemplo
+
+  }) // fim jquery
+
+</script>
+
+
+
+
+</body>
+</html>
+
+
+<!-- $var=file_get_contents('');
+echo $var; -->

@@ -1,0 +1,13 @@
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\bin\Debug\CSharpBasicoExercicios.exe.config
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\bin\Debug\CSharpBasicoExercicios.exe
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\bin\Debug\CSharpBasicoExercicios.pdb
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\obj\Debug\Aula14_PrimeiroExercicio.csprojResolveAssemblyReference.cache
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\obj\Debug\CSharpBasicoExercicios.exe
+C:\Curso\Testes\CSharpBasicoExercicios\CSharpBasicoExercicios\obj\Debug\CSharpBasicoExercicios.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\bin\Debug\CSharpBasicoExercicios.exe.config
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\bin\Debug\CSharpBasicoExercicios.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\bin\Debug\CSharpBasicoExercicios.pdb
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\obj\Debug\Aula14_PrimeiroExercicio.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\obj\Debug\Aula14_PrimeiroExercicio.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\obj\Debug\CSharpBasicoExercicios.exe
+C:\Users\mathe\OneDrive\Documentos\Visual Studio 2017\Projects\TreinaWeb.CSharpBasico\Aula14_PrimeiroExercicio\obj\Debug\CSharpBasicoExercicios.pdb
