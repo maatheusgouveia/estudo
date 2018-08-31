@@ -1,10 +1,10 @@
 import os
 def renomearArquivos():
-    listaArquivos = os.listdir(r"C:\Users\mathe\Desktop\python\prank")
+    listaArquivos = os.listdir(r"/home/matheusgouveia/estudo/python/prank")
     #print(listaArquivos)
     nomePasta = os.getcwd()
     print("A pasta atual é "+nomePasta)
-    os.chdir(r"C:\Users\mathe\Desktop\python\prank")
+    os.chdir(r"/home/matheusgouveia/estudo/python/prank")
 
     for file_name in listaArquivos:
         substituir = str.maketrans(dict.fromkeys('0123456789'))
