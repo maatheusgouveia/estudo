@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Minha primeira página</title>
+	</head>
+
+	<body>
+
+		<marquee>
+      <!-- <h1>Boa noite meu consagrado</h1> -->
+      <img src="foguetinho.png" class="foguetinho" alt="Foguetinho">
+
+      <style media="screen">
+        .foguetinho{
+          transform: rotate(240deg);
+        }
+        .daQueEuTeDouOutra{
+          /* asds */
+        }
+      </style>
+
+    </marquee>
+
+    <div class="daQueEuTeDouOutra">
+      <center>
+      <img src="bonoro.jpg" id="bonoro" onclick="TocarMusica('bonoro')">
+      <img src="maria.jpg" id="maria" onclick="TocarMusica('maria')">
+
+    </center>
+    </div>
+
+    <ol>
+      <li>Curintia</li>
+      <li>Sun Paulo</li>
+      <li>Santo</li>
+      <li>Curzero</li>
+      <li>Frameengo</li>
+    </ol>
+
+    <script>
+      function TocarMusica(imagem){
+        var audio1 = new Audio();
+        if(imagem == "bonoro"){
+        audio1.src = "daQueEuTeDouOutra.mp3";
+      }
+      else{
+        audio1.src = "masOQueEIsso.mp3";
+      }
+
+      audio1.play();
+      }
+    </script>
+
+	</body>
+</html>

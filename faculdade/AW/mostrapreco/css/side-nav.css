@@ -1,0 +1,56 @@
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #60338E;
+    overflow-x: hidden;
+    padding-top: 60px;
+
+}
+
+/* Estilo dos link e do botao dropdown */
+.sidenav a, .botao-dropdown{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ece411;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+/* Conteudo do dropdown*/
+.conteudo-dropdown {
+    display: none;
+    background-color: #60338E;
+    padding-left: 8px;
+}
+
+/*Seta do dropdown*/
+.fa-caret-down {
+    padding-right: 8px;
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 29.5px;
+    margin-left: -8.8px;
+    margin-top: -7px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 1024px) {
+    .sidenav {width: 100%;}
+  }

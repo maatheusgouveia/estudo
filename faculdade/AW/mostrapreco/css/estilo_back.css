@@ -1,0 +1,6 @@
+	#bg {
+  background: -webkit-radial-gradient(center ellipse, purple 0%, #121521 100%);
+  background: radial-gradient(ellipse at center, purple 0%, #121521 100%);
+  overflow: hidden;
+  width: 100%;
+}
