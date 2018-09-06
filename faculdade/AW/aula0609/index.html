@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Exercícios com javascript</title>
+</head>
+<body>
+    <div id="calculadora">
+
+        <label for="operacao">Selecione a operação</label><br>
+
+        <select id="operacao" class="elementosCalculadora" onchange="calcular()">
+            <option value="adicao">Adição</option>
+            <option value="subtracao">Subtração</option>
+            <option value="multiplicacao">Multiplicação</option>
+            <option value="divisao">Divisão</option>
+        </select><br>
+
+        <label for="n1">Primeiro número</label><br>
+
+        <input type="number" id="n1" class="elementosCalculadora" value="0"><br>
+
+        <label for="n2">Segundo número</label><br>
+
+        <input type="number" id="n2" class="elementosCalculadora" value="0"><br>
+        
+        <span id="resultado"></span>
+    </div>
+
+    <script src="js/funcoes.js"></script>
+</body>
+</html>

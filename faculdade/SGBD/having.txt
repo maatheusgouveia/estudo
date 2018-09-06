@@ -1,0 +1,4 @@
+SELECT SUM(produtoqtde) AS total,  produtotipo as 'tipo produto' FROM produto
+WHERE produtoid <> 1
+GROUp BY produtotipo
+HAVING SUM(produtoqtde) > 50

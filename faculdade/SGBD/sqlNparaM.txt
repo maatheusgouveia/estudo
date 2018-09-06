@@ -1,0 +1,19 @@
+CREATE DATABASE ex02_1708;
+
+CREATE TABLE animal(
+	animalId int not null PRIMARY key AUTO_INCREMENT,
+    animalNome varchar(20)
+);
+
+CREATE TABLE alimento(
+	alimentoId int not null PRIMARY KEY AUTO_INCREMENT,
+    alimentoNome varchar(20)
+);
+
+CREATE TABLE AnimalAlimento(
+    	animalid int not null,
+    	alimentoid int not null,
+    	PRIMARY KEY(animalid, alimentoid),
+    	FOREIGN KEY(animalid) REFERENCES animal(animalid),
+    	FOREIGN key(alimentoid) REFERENCES alimento(alimentoid)
+    )
