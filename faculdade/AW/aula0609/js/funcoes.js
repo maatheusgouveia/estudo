@@ -21,10 +21,10 @@ function calcular(){
 
         }
 
-    document.getElementById("resultado").innerHTML = resultado;
+    document.getElementById("resultado").value = resultado;
     } 
     else{
-        
+
         var retornon1 = document.getElementById("retornon1");
         var retornon2 = document.getElementById("retornon2");
         var retornoop = document.getElementById("retornoop");
