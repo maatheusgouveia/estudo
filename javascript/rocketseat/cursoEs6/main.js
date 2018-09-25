@@ -8,4 +8,13 @@ class Teste{
     outro(){
         
     }
+
+
+	impostoERoubo(){
+
+	}
+
+	teste(){
+		
+	}
 }

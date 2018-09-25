@@ -21,6 +21,9 @@ function () {
   }, {
     key: "outro",
     value: function outro() {}
+  }, {
+    key: "impostoERoubo",
+    value: function impostoERoubo() {}
   }]);
 
   return Teste;
