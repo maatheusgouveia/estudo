@@ -1,0 +1,12 @@
+Grupo 4
+
+Matheus Augusto Gouveia - Index, topo, rodape, config e headers
+
+Danilo Santos - Contato, integração com php mailer e hospedagem
+
+Osni - Novidades
+
+Alan - Filmes
+
+William - Livros
+
