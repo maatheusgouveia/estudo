@@ -1,0 +1,9 @@
+.tirarMarginRow {margin: 0; padding: 0 5px 0 5px;}
+.filmesUlInfos{padding-right: 5px; padding-left: 5px}
+.filmesCapa img{width: 200px;}
+.div-filmes{padding: 10px}
+.filmesCapa{text-align: center;background: #fff;padding:0}
+.filmesUlInfos {font-family: Arial;text-align: left; margin-top: 20px;padding: 0 0 0 5px}
+.espace {color: #fff}
+.div-filmes{width: 100%; margin: 5px 0 10px 0 !important;}
+

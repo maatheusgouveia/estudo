@@ -1,0 +1,45 @@
+/* Danilo Dos Santos carreiro*/
+body
+{
+   /*background-image:url('../imagens/fanwars/sw.jpg');*/
+   background-color:#343A40;
+   width:100%;
+   min-height:100px;
+   background-repeat: no-repeat, repeat;
+}
+
+#container
+{
+   margin-top:5%;
+}
+
+#mensagem
+{
+   font-family: bold;
+}
+
+.borderRadius-0
+{
+  border-radius:0;
+  /*background-color:transparent;*/
+  color:black ;
+  border:2px solid #000000;
+/*  border-right:0px;
+  border-left:0px;
+  border-top:0px;*/
+}
+.borderRadius-0:focus
+{
+  /*background-color:transparent;*/
+}
+
+.input-lg
+{
+	height:58px;
+}
+
+
+
+
+
+

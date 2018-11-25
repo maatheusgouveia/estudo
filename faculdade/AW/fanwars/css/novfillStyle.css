@@ -1,0 +1,5 @@
+.body{margin: 0;padding: 0;}
+.linkNovidade{color: #000;}
+.livrosUlInfos {font-family: Arial;}
+.livrosUlInfos li{display: block;padding: 0;margin: 0 0 0 0;}
+.livrosUlInfos .negrito{font-weight: 550;color: #000}

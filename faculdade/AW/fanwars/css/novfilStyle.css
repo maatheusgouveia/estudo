@@ -1,0 +1,76 @@
+.body{padding: 0; margin: 0;}
+
+.filmesTitulo{margin: 10px 0 0 0;text-align: center;padding: 0 10px 0 10px;}
+
+.linkNovidade{color: #000;}
+.filmesUlInfos ul{margin: 0; padding: 0;}
+.filmesUlInfos li{display: block;}
+.filmesUlInfos .negrito{font-weight: 550;color: #000}
+
+
+/* pages */
+
+.sinopeFilme {font-family: Arial; font-size: 19px}
+.sinopeFilme li{display: block;padding: 0;margin: 0 0 0 0;}
+.sinopeFilme .negrito{font-weight: 550;color: #000}
+
+#myBtn {display: none;position: fixed;bottom: 20px;right: 30px;z-index: 99;font-size: 18px;border: none;outline: none;color: white;cursor: pointer;padding: 15px;border-radius: 4px;}
+
+#myBtn:hover {background-color: #555;}
+
+.relative-top{position: absolute;}
+
+.btnsInfoFilme{margin: 2px 30px;}
+.linkFilmeCapa{float: left;margin: 0 10px 0 0;}
+.linkFilmeCapa img{max-width: 230px;}
+.div-principal{width: 100%;}
+.linkFilmeTitulo{margin: 10px 0 0 0;}
+.segundaDivPrincipal{margin: 3px 0 0 0;}
+.linkFilmeSinopse{text-align: left;}
+.linkFilmeSinopse ul{padding: 0;margin: 5px;}
+.linkFilmeSinopse li{display: block;padding: 0; margin: 0;}
+.linkFilmeSinopseTexto{font-size: 25px; font-weight: 740}
+.linkFilmeSinopseTextoC{font-size: 17.5px; font-weight: 540;font-family: Arial}
+.linkFilmeOpcoes ul{position: relative;margin: 0;padding: 0;}
+.linkFilmeOpcoes li{display: inline-block;}
+.linkFilmeOpcoes span{margin: 10px 10px 0 10px}
+.linkFilmeCont{width: 100%; text-align: left;	font-size: 23px; font-weight: bold;font-family: Arial; padding: 5px}
+.linkFilmeContA{width: 100%; font-size: 23px; font-weight: bold;font-family: Arial; padding: 5px}
+.linkFilmeContB .til{width: 100%; text-align: left;	font-size: 23px; font-weight: bold;font-family: Arial; padding: 15px 5px 5px 5px}
+
+
+.divCritica{padding: 5px}
+.linkFilmeCriticaCont ul {position: relative;margin: 0;padding: 0;}
+.linkFilmeCriticaCont li {display: block; width: 100%;}
+.linkFilmeCriticaText{font-size: 17.5px; font-weight: 540;font-family: Arial;margin: 7px 0 0 0; text-align: left;width: 100%;}
+.linkFilmeCriticaIMG1 {text-align: center;}
+.linkFilmeCriticaIMG1 img{max-width: 100%; padding: 20px 0}
+.biografiaTit {text-align: left;width: 92%;}
+.biografiaTit ul{padding: 0;margin: 0;}
+.biografiaTit li{display: block;}
+.biografiaTit span {font-size: 18px;font-weight: bolder; padding: 6px 10px; background: #000;color: #fff;cursor: default;}
+.biografiaRisco {background: #000; width: 100%; height: 4px}
+.biografiaDetalhes {position: relative;text-align: left;width: 92%;margin: 15px 0 15px 15px;}
+.biografiaFoto {float: left;margin: 0 15px 0 0}
+.biografiaFoto img{max-width: 120px}
+.biografiaCont {font-family: Arial;}
+.biografiaCont .biografiaAuthor {font-size: 19px;font-weight: bold;}
+.biografiaCont .biografiaTexto {font-size: 17.4px; font-weight: 540}
+.divFilmeSinopse{padding: 5px;}
+
+.linkFilmeDetalheTit{text-align: left;}
+.linkFilmeDetalheIn {margin: 10px 0 0 0; width: 100%;}
+.linkFilmeDetalheIn table {padding: 0; margin: 0;}
+.linkFilmeDetalheIn td{display: inline-block;font-family: Arial;background: #ccc;padding: 0 10px; border-radius: 5px; border:solid 1px #000;margin: 10px}
+.linkFilmeDirecao img {max-width: 70px;}
+.linkFilmeDirecao .padding {padding: 34px 10px 34px 10px;}
+.linkFilmeDiretores {font-size: 20px;text-align: center;}
+.linkFilmeDiretoresRisco{background: #000; width: 92%;height: 2px; margin: 10px 0 0 0}
+
+.divCuriosidadesCont {text-align: left;width: 100%;padding: 0 7px 20px 7px;}
+.divCuriosidadesCont ul {margin: 0;padding: 0;}
+.divCuriosidadesCont li{display: block;margin: 15px 0 0 0;font-family: Arial; font-size: 18px; font-weight: 540: 0; padding: 0;}
+
+#divCritica {display: none;}
+#divDetalhes{display: none;}
+#divCuriosidades{display: none;}
